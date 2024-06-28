@@ -7,6 +7,19 @@ def main():
     ########################################
     """
 
+    # quadrant = 1,2,3,4
+
+    if x > 0 and y > 0:
+        quadrant = 1
+    elif x < 0 and y > 0:
+        quadrant = 2
+    elif x < 0 and y < 0:
+        quadrant = 3 
+    elif x > 0 and y < 0:
+        quadrant = 4
+
+
+
     print(f'Quadrant: {quadrant}')
     ########################################
     # Do not delete the return statement
